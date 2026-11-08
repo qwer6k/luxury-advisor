@@ -1,0 +1,42 @@
+[
+  {
+    "id": "XY-B01",
+    "name": "弧影中号肩包",
+    "category": "手袋",
+    "price_cny": 23800,
+    "material": "细纹牛皮",
+    "colors": ["岩灰", "墨黑"],
+    "features": ["可调节肩带", "内部分隔袋"],
+    "stock": "unknown"
+  },
+  {
+    "id": "XY-B02",
+    "name": "折光小号手提包",
+    "category": "手袋",
+    "price_cny": 16800,
+    "material": "光面牛皮",
+    "colors": ["栗棕", "墨黑"],
+    "features": ["可拆卸肩带", "磁吸开合"],
+    "stock": "unknown"
+  },
+  {
+    "id": "XY-B03",
+    "name": "行间托特包",
+    "category": "手袋",
+    "price_cny": 29800,
+    "material": "粒面牛皮",
+    "colors": ["深棕", "墨黑"],
+    "features": ["可容纳A4文件", "拉链内袋"],
+    "stock": "unknown"
+  },
+  {
+    "id": "XY-S01",
+    "name": "页间卡包",
+    "category": "小皮具",
+    "price_cny": 3800,
+    "material": "细纹牛皮",
+    "colors": ["岩灰", "墨黑", "栗棕"],
+    "features": ["四个卡位", "中央收纳层"],
+    "stock": "unknown"
+  }
+]

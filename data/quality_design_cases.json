@@ -1,0 +1,176 @@
+{
+  "version": "quality-design-0.1",
+  "status": "fictional_evaluation_design_fixtures_only",
+  "notice": "以下是评价规则的虚构设计样例，未逐例调用模型、生成输出或评分，不计入挑战书正式50例。profile_evidence采用早期设计的符号来源结构，不是当前客户API的UUID记录；实际持久化档案、来源与版本快照已实现，须通过适配后才能将这些设计样例作为可执行案例。",
+  "cases": [
+    {
+      "id": "QD01",
+      "pair": "holiday_style",
+      "scenario": "greeting",
+      "client_name": "林女士",
+      "profile_evidence": [
+        {
+          "fact_id": "F01",
+          "value": "喜欢简短、有留白的文学表达",
+          "source": "客户曾明确表示偶尔引用诗句挺好，但不要写太长",
+          "scope": "沟通风格",
+          "status": "confirmed"
+        },
+        {
+          "fact_id": "F02",
+          "value": "不希望祝福夹带产品推荐",
+          "source": "客户明确要求",
+          "scope": "祝福场景",
+          "status": "confirmed"
+        }
+      ],
+      "current_context": "已确认在中秋当日发送一次祝福。没有家庭、行程或健康信息。",
+      "expected": [
+        "可选择一处经核实、寓意适切的简短引文，也可不用典",
+        "保持简短、留白，不默认团聚，不带货"
+      ],
+      "reject": [
+        "只换称谓套用冗长群发诗句",
+        "杜撰名人引文",
+        "默认客户阖家团圆"
+      ]
+    },
+    {
+      "id": "QD02",
+      "pair": "holiday_style",
+      "scenario": "greeting",
+      "client_name": "林女士",
+      "profile_evidence": [
+        {
+          "fact_id": "F01",
+          "value": "喜欢直接、朴素的一两句话，不喜欢古诗和套话",
+          "source": "本对照样例中客户的明确偏好",
+          "scope": "沟通风格",
+          "status": "confirmed"
+        },
+        {
+          "fact_id": "F02",
+          "value": "不希望祝福夹带产品推荐",
+          "source": "客户明确要求",
+          "scope": "祝福场景",
+          "status": "confirmed"
+        }
+      ],
+      "current_context": "与QD01完全相同的中秋场景，仅改变表达偏好；这是独立对照输入，不是同一事实的同时陈述。",
+      "expected": [
+        "使用直接、简短的现代汉语祝福",
+        "不应因为未用典而降低场景质量评分"
+      ],
+      "reject": [
+        "仍强行引用诗句",
+        "以品牌高端为理由忽略客户的明确表达偏好"
+      ]
+    },
+    {
+      "id": "QD03",
+      "pair": "preference_update",
+      "scenario": "recommendation",
+      "client_name": "周女士",
+      "profile_evidence": [
+        {
+          "fact_id": "F10",
+          "value": "日常通勤偏好灰色、低调、可肩背",
+          "source": "过去多次明确咨询",
+          "scope": "日常通勤",
+          "status": "confirmed"
+        }
+      ],
+      "current_context": "客户希望选一只日常通勤包，只能使用实际目录中已确认的产品资料。",
+      "expected": [
+        "让通勤与肩背需求影响具体推荐理由",
+        "有合适资料才提颜色和肩带，不宣称有现货"
+      ],
+      "reject": [
+        "只在通用销售文案中插入周女士",
+        "为显得懂客户而编造职业或生活经历"
+      ]
+    },
+    {
+      "id": "QD04",
+      "pair": "preference_update",
+      "scenario": "recommendation",
+      "client_name": "周女士",
+      "profile_evidence": [
+        {
+          "fact_id": "F10",
+          "value": "日常通勤偏好灰色、低调、可肩背",
+          "source": "过去多次明确咨询",
+          "scope": "日常通勤",
+          "status": "confirmed"
+        },
+        {
+          "fact_id": "F11",
+          "value": "这次为参加朋友的活动，想看看更鲜明的配色",
+          "source": "最新客户对话",
+          "scope": "本次活动选购",
+          "status": "confirmed"
+        }
+      ],
+      "current_context": "本次需求不同于通勤。当前目录若没有符合新需求的已确认配色，应坦诚说明或进一步核实。",
+      "expected": [
+        "本次建议服从最新场景需求",
+        "不把一次尝试永久覆盖成长期喜好",
+        "目录没有对应配色时不编造新品"
+      ],
+      "reject": [
+        "坚持推荐灰色，理由是系统记得客户一直喜欢灰色",
+        "凭空生成亮色款或库存"
+      ]
+    },
+    {
+      "id": "QD05",
+      "pair": "same_client_different_scenario",
+      "scenario": "post_purchase",
+      "client_name": "林女士",
+      "profile_evidence": [
+        {
+          "fact_id": "F01",
+          "value": "喜欢简短、有留白的文学表达",
+          "source": "客户明确表述",
+          "scope": "日常轻量沟通",
+          "status": "confirmed"
+        }
+      ],
+      "current_context": "客户刚反馈手提包提手边缘起皮，问能否免费更换。原因与售后资格尚未核实。",
+      "expected": [
+        "先回应不便和实际诉求，说明需要核实的下一步",
+        "不因客户喜欢文学就套诗句，不保证免费更换"
+      ],
+      "reject": [
+        "用文雅祝愿或产品赞美回避问题",
+        "把审美偏好用于所有场景",
+        "未经核实判断原因或承诺免费换货"
+      ]
+    },
+    {
+      "id": "QD06",
+      "pair": "sparse_context",
+      "scenario": "greeting",
+      "client_name": "许女士",
+      "profile_evidence": [
+        {
+          "fact_id": "F20",
+          "value": "客户指定称呼为许女士",
+          "source": "本次已确认资料",
+          "scope": "称呼",
+          "status": "confirmed"
+        }
+      ],
+      "current_context": "首次轻量节日问候，除称呼和场合外无其他已知个人资料。",
+      "expected": [
+        "选择保守、简短、无事实推断的祝福",
+        "不因资料不足就编造兴趣、家人或共同经历",
+        "评估按冷启动分组，不把谨慎的通用表达误判为已实现丰富的长期个性化"
+      ],
+      "reject": [
+        "伪装长期熟悉",
+        "主动猜测客户的职业、家庭或文学偏好"
+      ]
+    }
+  ]
+}

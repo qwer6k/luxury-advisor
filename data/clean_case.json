@@ -1,0 +1,34 @@
+{
+  "dataset_id": "xuyu-clean-new-input-v1",
+  "fictional": true,
+  "cases": [
+    {
+      "case_id": "D901",
+      "purpose": "Fresh clean-environment input, outside the formal set",
+      "input": {
+        "scenario": "recommendation",
+        "client": {
+          "preferred_name": "小舟",
+          "relationship": "首次咨询",
+          "preferences": [
+            "岩灰",
+            "轻装出门"
+          ],
+          "notes": [],
+          "lifecycle_stage": "new",
+          "background": {}
+        },
+        "conversation_history": [
+          {
+            "speaker": "client",
+            "text": "我平时只带四张卡，想找个岩灰色卡包送自己，预算四千以内。请简单介绍适合的那款，也告诉我价格。"
+          }
+        ],
+        "product_ids": [
+          "XY-S01"
+        ],
+        "scenario_details": {}
+      }
+    }
+  ]
+}

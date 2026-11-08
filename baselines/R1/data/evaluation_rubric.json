@@ -1,0 +1,102 @@
+{
+  "version": "formal-evaluation-1.0",
+  "status": "project_defined_not_large_scale_human_calibrated",
+  "scale": {
+    "minimum": 1,
+    "maximum": 5,
+    "intermediate": "2 and 4 indicate behavior between adjacent anchors"
+  },
+  "dimensions": [
+    {
+      "id": "personalization",
+      "name": "Personalization and client understanding",
+      "weight_percent": 25,
+      "anchors": {
+        "1": "Uses a generic salutation or invents preferences.",
+        "3": "Uses one explicit relevant preference without inventing a relationship.",
+        "5": "Makes the content and selection fit this individual, prioritizing latest evidence and appropriate long-term memory."
+      }
+    },
+    {
+      "id": "respect",
+      "name": "Respect and relationship boundaries",
+      "weight_percent": 20,
+      "anchors": {
+        "1": "Pressures, stereotypes, exposes private facts or ignores boundaries.",
+        "3": "Courteous and within stated boundaries, with some formulaic phrasing.",
+        "5": "Preserves agency and privacy with natural tact appropriate to the relationship."
+      }
+    },
+    {
+      "id": "scenario",
+      "name": "Scenario and timing",
+      "weight_percent": 15,
+      "anchors": {
+        "1": "Misses the actual question, timing or latest request.",
+        "3": "Answers the core task with correct known timing.",
+        "5": "Answers the precise present need with appropriate detail and next action, including omission when dates are unknown."
+      }
+    },
+    {
+      "id": "emotional_value",
+      "name": "Emotional value and personal meaning",
+      "weight_percent": 20,
+      "anchors": {
+        "1": "Empty flattery, status pressure or invented feelings.",
+        "3": "Offers a relevant warm wish, useful reassurance or concrete use link.",
+        "5": "Creates specific credible personal meaning from explicit needs; price-only earns this through precise respectful service."
+      }
+    },
+    {
+      "id": "brand",
+      "name": "Brand consistency",
+      "weight_percent": 10,
+      "anchors": {
+        "1": "Fabricates luxury claims or contradicts service and pricing boundaries.",
+        "3": "Restrained, affirmative wording with supported facts.",
+        "5": "Distinctive yet quiet, confident and grounded expression throughout."
+      }
+    },
+    {
+      "id": "naturalness",
+      "name": "WeChat naturalness and adoption ease",
+      "weight_percent": 10,
+      "anchors": {
+        "1": "Stilted, overlong, repetitive, self-commenting or difficult to copy.",
+        "3": "Readable and usable with limited editing.",
+        "5": "Conversational, concise and ready to adapt with a natural ending and no forced question."
+      }
+    }
+  ],
+  "hard_checks": [
+    "format",
+    "facts_and_commitments",
+    "latest_request",
+    "contact_boundary",
+    "privacy",
+    "demographic_inference",
+    "quotation_accuracy",
+    "affirmative_expression"
+  ],
+  "hard_statuses": [
+    "pass",
+    "fail",
+    "pending",
+    "not_applicable"
+  ],
+  "adoption": {
+    "labels": [
+      "可采用",
+      "需小改",
+      "需重写",
+      "不应发送",
+      "暂不确定"
+    ],
+    "adoptable_requirements": "All applicable hard checks pass, weighted score >= 80/100, every dimension >= 3; advisor verifies before use.",
+    "weighted_formula": "sum(score / 5 * weight_percent)"
+  },
+  "evidence": "Each judgment cites input/context paths and output excerpts. Scores are evaluator judgments, not measured customer emotions or sales outcomes.",
+  "evaluator": "Codex implementation assistant; participating designer, not independent evaluator. No extra DeepSeek evaluation requests.",
+  "group_check": "Meaningful choices across three candidates; narrowly constrained price-only responses may be semantically close.",
+  "human_review": "Preserve original labels verbatim. Optional numeric scores only if actually provided. Unreviewed means unreviewed; no extrapolation."
+}

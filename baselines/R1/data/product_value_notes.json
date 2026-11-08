@@ -1,0 +1,148 @@
+{
+  "version": "value-notes-0.1",
+  "status": "editorial_benefit_hypotheses_not_product_claims_or_human_accepted_copy",
+  "notice": "事实仅来自本次选中的目录字段；体验联系是编辑设计的可选表达，需客户明说的在意点支撑，不能作为产品额外卖点或客户感受保证。",
+  "selection_rules": [
+    "从客户当前话语与适用的已确认长期偏好中选一处在意点，再选一条有匹配事实的体验联系；让资料改变正文重点。",
+    "把事实写成客户在意的使用感受、审美选择或纪念心意，保持自然；一句连接即可，不朗读整段规格，也不直接宣判值、值得或保证客户满意。",
+    "客户资料稀疏时可介绍一个确有依据的设计细节，再问一个关于其在意点的开放问题。客户明确只问价格或要求简短时，按其要求结束。",
+    "手工工时、产地、匠人故事、稀缺性、耐用年限、免费服务、保值与投资回报均需另外明确核实；不能用情绪价值补造这些事实。",
+    "客户表达预算上限、暂停购买或仅需价格时，服从该边界；避免按天摊薄、身份比较、成功暗示或犒劳自己就该买的施压。"
+  ],
+  "product_notes": [
+    {
+      "id": "B01-strap",
+      "product_id": "XY-B01",
+      "facts": [
+        {
+          "field": "features",
+          "value": "可调节肩带"
+        }
+      ],
+      "use_when": "客户明说在意肩带长度、肩背方式或背法调整。",
+      "experience_connection": "围绕可以按使用习惯调整肩带来写选择感；具体舒适度要由本人体验确认。"
+    },
+    {
+      "id": "B01-order",
+      "product_id": "XY-B01",
+      "facts": [
+        {
+          "field": "features",
+          "value": "内部分隔袋"
+        }
+      ],
+      "use_when": "客户明说希望随身小物分开放、日常有条理。",
+      "experience_connection": "把分隔袋联系到日常收纳的条理，写出随身小物各有位置的画面；容量和特定物品适配另行核实。"
+    },
+    {
+      "id": "B01-color",
+      "product_id": "XY-B01",
+      "facts": [
+        {
+          "field": "colors",
+          "value": "岩灰"
+        }
+      ],
+      "use_when": "客户已明说喜欢岩灰色或低调的灰色。",
+      "experience_connection": "围绕其已选颜色的个人审美展开，传达被认真理解；避免宣称显气质、显身份或保证百搭。"
+    },
+    {
+      "id": "B02-change",
+      "product_id": "XY-B02",
+      "facts": [
+        {
+          "field": "features",
+          "value": "可拆卸肩带"
+        }
+      ],
+      "use_when": "客户明说喜欢手提与配肩带使用的变化。",
+      "experience_connection": "把可拆卸肩带联系到两种使用方式的变化，保留其按当天心意选择的空间；不推断斜挎、长短或人体舒适性。"
+    },
+    {
+      "id": "B02-color",
+      "product_id": "XY-B02",
+      "facts": [
+        {
+          "field": "colors",
+          "value": "栗棕"
+        }
+      ],
+      "use_when": "客户明说喜欢栗棕色，或以自己喜欢的物件纪念新阶段。",
+      "experience_connection": "从其喜欢的栗棕色写审美上的认同；客户自己提出纪念意义时，可让这份心意落在已选颜色与日常随身的选择上，纪念意义来自客户。"
+    },
+    {
+      "id": "B02-opening",
+      "product_id": "XY-B02",
+      "facts": [
+        {
+          "field": "features",
+          "value": "磁吸开合"
+        }
+      ],
+      "use_when": "客户明说在意开合方式或日常取用。",
+      "experience_connection": "自然介绍磁吸开合这个设计细节，供其判断日常取用；不保证单手开合、安静、耐用或更安全。"
+    },
+    {
+      "id": "B03-order",
+      "product_id": "XY-B03",
+      "facts": [
+        {
+          "field": "features",
+          "value": "可容纳A4文件"
+        },
+        {
+          "field": "features",
+          "value": "拉链内袋"
+        }
+      ],
+      "use_when": "客户明说携带A4资料、希望文件与随身小物分开放。",
+      "experience_connection": "把A4文件和小物分开放的具体画面联系到其期待的日常秩序感，重点回应其说过的习惯；不扩写电脑容量或重量。"
+    },
+    {
+      "id": "B03-black",
+      "product_id": "XY-B03",
+      "facts": [
+        {
+          "field": "colors",
+          "value": "墨黑"
+        }
+      ],
+      "use_when": "客户已明说喜欢墨黑色。",
+      "experience_connection": "让其自主选择的颜色成为审美认同的线索，结合实际用途写喜欢的物件融入日常；不代其判断稳重、职业气场或身份。"
+    },
+    {
+      "id": "S01-order",
+      "product_id": "XY-S01",
+      "facts": [
+        {
+          "field": "features",
+          "value": "四个卡位"
+        },
+        {
+          "field": "features",
+          "value": "中央收纳层"
+        }
+      ],
+      "use_when": "客户明说需要整理几张常用卡或希望卡片分开放。",
+      "experience_connection": "围绕常用卡各有位置写日常的小秩序感；随身容量、纸币适配、厚度和耐用性都需另行核实。"
+    }
+  ],
+  "editorial_examples": [
+    {
+      "status": "assistant_design_not_user_reviewed",
+      "known": "虚构周女士明确需要A4容量、小物分开放、喜欢墨黑色，希望每天都愿意带着出门；行间托特对应目录事实和29,800元标价已确认；无自行折扣权限。",
+      "message": "周女士，这款按标价29,800元提供。您说出门时喜欢资料和小物各归其位，行间托特的A4空间与拉链内袋，就照顾到这份习惯。选中的墨黑色，也回应了您想挑一只每天愿意带在身边的包的心意。"
+    },
+    {
+      "status": "assistant_design_not_user_reviewed",
+      "known": "虚构程女士主动提到换工作，想用日常小包纪念新开始，明确喜欢栗棕色与手提/肩带使用变化；折光小号手提包的栗棕配色、可拆卸肩带和16,800元标价已确认。",
+      "message": "程女士，您想给新的开始留一件日常会用到的东西。喜欢的栗棕色、可拆卸肩带带来的使用变化，都可以一起细看；折光小号手提包按标价16,800元提供。这份纪念，也可以从您自己喜欢的细节选起。"
+    },
+    {
+      "status": "assistant_design_not_user_reviewed",
+      "known": "虚构程女士当前明确只要价格和折扣答复，目录标价16,800元，无自行折扣权限。",
+      "message": "程女士，这款按目录标价16,800元提供。",
+      "response_mode": "price_only"
+    }
+  ]
+}

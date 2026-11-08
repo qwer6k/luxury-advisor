@@ -1,0 +1,31 @@
+{
+  "version": "public-rules-1.0",
+  "status": "public_rules_only_private_review_examples_excluded",
+  "notice": "Only general writing rules are included. Private review examples, labels and source metadata are supplied separately. This public configuration is not the frozen formal-evaluation configuration.",
+  "source": {
+    "sha256": "fb64f47c11bd32d95b1411b3022155b865a22b8468e41ada29c723a8c446f4e5"
+  },
+  "coverage": {
+    "scene_groups": {}
+  },
+  "writing_rules": [
+    "客户正文采用肯定式表达：直接说已知条件、可以采取的行动和需要核实的事项；避免否定句、反驳或以不能、没有权限、不必、不用作为沟通方式。",
+    "肯定式表达也必须把业务边界说清楚：按目录标价提供就明确标价；库存或免费处理资格未知就明确核实事项。禁止用转移话题、模糊允诺或虚构优惠来替代真实回答。",
+    "围绕客户明说的需要和可核实事实写吸引力，省略对其品味、想法、家人、近况、消费能力与产品适配的推测。条件询问与待核实事项应表述为选择或核实，不能包装成已知事实。",
+    "表达可以有文意、有画面、有感染力；客户最新明确的风格要求决定文采的程度，事实、隐私和触达边界始终优先。认可表达不等于认可其中的推测或未核实承诺。"
+  ],
+  "scene_rules": {
+    "greeting": [
+      "节日祝愿可以有文意和余韵，选择客户愿意接受的日常意象；客户要直白时仍让祝愿有温度。日期、称呼和私人信息只取已确认内容。"
+    ],
+    "recommendation": [
+      "把已确认容量、颜色、价格与此人的明确需求连起来，让使用画面具体；职业和年龄只是背景，不能替客户判定品味。"
+    ],
+    "price_objection": [
+      "价格沟通兼顾真实价格条件与客户感受到的价值：围绕客户已确认的使用习惯、审美和心意，让产品细节与个人生活的联系自然出现。",
+      "每条价格回复在完成价格问题后，按资料与客户意愿补充一处有依据的价值联系；客户明确只要价格或暂停时遵从其最新要求。",
+      "真实表达带来被理解的情绪价值，价值是否成立由客户决定；不把推测、身份奉承、虚构工艺或承诺当成价值论证。"
+    ]
+  },
+  "examples": []
+}

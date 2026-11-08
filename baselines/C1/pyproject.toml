@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "luxury-advisor"
+version = "0.8.1"
+description = "A fictional luxury Client Advisor message drafting tool"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "openai>=2,<4",
+  "pydantic>=2.10,<3",
+  "uvicorn>=0.30,<1",
+]
+
+[project.scripts]
+luxury-advisor = "luxury_advisor.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/luxury_advisor"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W"]
+ignore = ["E501"]

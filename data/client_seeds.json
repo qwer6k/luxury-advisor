@@ -1,0 +1,134 @@
+[
+  {
+    "id": "10000000-0000-4000-8000-000000000001",
+    "profile": {
+      "preferred_name": "林女士",
+      "relationship": "自去年起持续到店交流，偏爱细腻、克制的服务",
+      "fictional": true,
+      "lifecycle_stage": "established",
+      "background": {
+        "gender": "female",
+        "age": 38,
+        "occupation": "编辑",
+        "source": "虚构示例：客户自述，由顾问核实",
+        "observed_on": "2026-11-01"
+      }
+    },
+    "facts": [
+      {
+        "kind": "style",
+        "topic": "表达风格",
+        "value": "喜欢简短、有留白的文学表达；不要写成长篇祝辞",
+        "source": "虚构微信记录：偶尔一句诗挺好，但不要太长。",
+        "observed_at": "2026-01-15T08:00:00+00:00"
+      },
+      {
+        "kind": "constraint",
+        "topic": "祝福边界",
+        "value": "生日与节日祝福不附带产品推荐，不要求回复",
+        "scope": "greeting",
+        "source": "虚构客户明确要求：祝福就好，不用给我推荐东西。",
+        "observed_at": "2026-02-10T08:00:00+00:00"
+      },
+      {
+        "kind": "preference",
+        "topic": "日常审美",
+        "value": "喜欢低调配色与细节工艺",
+        "source": "虚构门店交流：喜欢低调一点，工艺细节可以多介绍。",
+        "observed_at": "2026-03-08T08:00:00+00:00"
+      }
+    ],
+    "interactions": [
+      {
+        "speaker": "client",
+        "text": "谢谢上次简短的问候，这样轻轻一句就很好。",
+        "source": "虚构微信沟通",
+        "scenario": "greeting",
+        "occurred_at": "2026-09-26T09:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000002",
+    "profile": {
+      "preferred_name": "周女士",
+      "relationship": "长期关注通勤皮具，习惯先在微信了解使用细节",
+      "fictional": true,
+      "lifecycle_stage": "new",
+      "background": {
+        "gender": "female",
+        "age": 32,
+        "occupation": "建筑设计师",
+        "source": "虚构示例：客户自述，由顾问核实",
+        "observed_on": "2026-11-01"
+      }
+    },
+    "facts": [
+      {
+        "kind": "preference",
+        "topic": "日常配色",
+        "value": "日常通勤偏好灰色和低调配色",
+        "source": "虚构客户原话：平时通勤还是喜欢低调一点的灰色。",
+        "observed_at": "2026-01-12T09:00:00+00:00"
+      },
+      {
+        "kind": "preference",
+        "topic": "使用习惯",
+        "value": "日常偏好肩背，重视收纳分隔",
+        "scope": "recommendation",
+        "source": "虚构客户原话：肩背方便些，里面分隔清楚就好。",
+        "observed_at": "2026-04-02T09:00:00+00:00"
+      },
+      {
+        "kind": "style",
+        "topic": "表达风格",
+        "value": "直接、简短，先介绍与需求有关的细节，不喜欢华丽修辞",
+        "source": "虚构客户原话：简单说说实用的地方就行。",
+        "observed_at": "2026-04-02T09:05:00+00:00"
+      }
+    ],
+    "interactions": [
+      {
+        "speaker": "client",
+        "text": "最近想再看看日常肩背的款式，还是先发细节给我吧。",
+        "source": "虚构微信沟通",
+        "scenario": "recommendation",
+        "occurred_at": "2026-11-01T08:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "id": "10000000-0000-4000-8000-000000000003",
+    "profile": {
+      "preferred_name": "陆先生",
+      "relationship": "曾咨询过小皮具，目前希望暂停主动联系",
+      "fictional": true,
+      "lifecycle_stage": "developing",
+      "background": {
+        "gender": "male",
+        "age": null,
+        "occupation": "",
+        "source": "虚构示例：客户自述，由顾问核实",
+        "observed_on": "2026-11-01"
+      }
+    },
+    "contact_status": "paused",
+    "facts": [
+      {
+        "kind": "constraint",
+        "topic": "联系意愿",
+        "value": "目前请勿主动联系，之后有需要会自行联系",
+        "source": "虚构客户原话：先不用再主动联系，有需要我会找您。",
+        "observed_at": "2026-10-10T08:00:00+00:00"
+      }
+    ],
+    "interactions": [
+      {
+        "speaker": "client",
+        "text": "先不用再主动联系，有需要我会找您。",
+        "source": "虚构微信沟通",
+        "occurred_at": "2026-10-10T08:00:00+00:00"
+      }
+    ]
+  }
+]

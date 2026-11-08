@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="509.27599999999995" height="310" preserveAspectRatio="xMinYMin meet" viewBox="0 0 509 310" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="509.27599999999995" height="310"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-310)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="232" width="149" height="72" rx="5" ry="0" style="stroke: rgb(64%,54%,34%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(91%,92%,89%); fill-rule: evenodd;"/>
+			<text x="9" y="287" style="font-family: Bold; font-size: 9px;fill: rgb(12%,24%,20%); stroke:none;" transform="translate(0,574) scale(1,-1)">React + TypeScript / Vite</text>
+			<text x="9" y="272" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,544) scale(1,-1)">Four visual themes</text>
+			<text x="9" y="260" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,520) scale(1,-1)">Drafts, profile journal, saved runs</text>
+			<rect x="175" y="232" width="151" height="72" rx="5" ry="0" style="stroke: rgb(64%,54%,34%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(91%,92%,89%); fill-rule: evenodd;"/>
+			<text x="184" y="287" style="font-family: Bold; font-size: 9px;fill: rgb(12%,24%,20%); stroke:none;" transform="translate(0,574) scale(1,-1)">FastAPI / shared service</text>
+			<text x="184" y="272" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,544) scale(1,-1)">DraftRequest + validation</text>
+			<text x="184" y="260" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,520) scale(1,-1)">CLI and UI use the same path</text>
+			<rect x="350" y="232" width="159" height="72" rx="5" ry="0" style="stroke: rgb(64%,54%,34%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(91%,92%,89%); fill-rule: evenodd;"/>
+			<text x="359" y="287" style="font-family: Bold; font-size: 9px;fill: rgb(12%,24%,20%); stroke:none;" transform="translate(0,574) scale(1,-1)">SQLite / local JSON</text>
+			<text x="359" y="272" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,544) scale(1,-1)">Confirmed profile facts</text>
+			<text x="359" y="260" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,520) scale(1,-1)">Brand, products, playbooks</text>
+			<path d="M 149,268 L 175,268 Z" style="stroke: rgb(12%,24%,20%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="175 268, 170.6121 270.3971, 170.6121 265.6029" style="stroke: rgb(12%,24%,20%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,24%,20%); fill-rule: evenodd;"/>
+			<path d="M 350,268 L 326,268 Z" style="stroke: rgb(12%,24%,20%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="326 268, 330.3879 265.6029, 330.3879 270.3971" style="stroke: rgb(12%,24%,20%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,24%,20%); fill-rule: evenodd;"/>
+			<rect x="175" y="126" width="151" height="75" rx="5" ry="0" style="stroke: rgb(64%,54%,34%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(91%,92%,89%); fill-rule: evenodd;"/>
+			<text x="184" y="184" style="font-family: Bold; font-size: 9px;fill: rgb(12%,24%,20%); stroke:none;" transform="translate(0,368) scale(1,-1)">Scenario + value brief</text>
+			<text x="184" y="169" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,338) scale(1,-1)">Latest request takes priority</text>
+			<text x="184" y="157" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,314) scale(1,-1)">Selected memory + catalog</text>
+			<text x="184" y="145" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,290) scale(1,-1)">No demographic taste inference</text>
+			<path d="M 250,232 L 250,201 Z" style="stroke: rgb(12%,24%,20%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="250 201, 252.3971 205.3879, 247.6029 205.3879" style="stroke: rgb(12%,24%,20%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,24%,20%); fill-rule: evenodd;"/>
+			<rect x="0" y="126" width="149" height="75" rx="5" ry="0" style="stroke: rgb(64%,54%,34%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(91%,92%,89%); fill-rule: evenodd;"/>
+			<text x="9" y="184" style="font-family: Bold; font-size: 9px;fill: rgb(12%,24%,20%); stroke:none;" transform="translate(0,368) scale(1,-1)">DeepSeek Responses API</text>
+			<text x="9" y="169" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,338) scale(1,-1)">Actual model: deepseek-flash</text>
+			<text x="9" y="157" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,314) scale(1,-1)">No SDK retries; max two calls</text>
+			<path d="M 175,164 L 149,164 Z" style="stroke: rgb(12%,24%,20%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="149 164, 153.3879 161.6029, 153.3879 166.3971" style="stroke: rgb(12%,24%,20%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,24%,20%); fill-rule: evenodd;"/>
+			<rect x="0" y="15" width="149" height="79" rx="5" ry="0" style="stroke: rgb(64%,54%,34%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(91%,92%,89%); fill-rule: evenodd;"/>
+			<text x="9" y="77" style="font-family: Bold; font-size: 9px;fill: rgb(12%,24%,20%); stroke:none;" transform="translate(0,154) scale(1,-1)">Format + limited rule checks</text>
+			<text x="9" y="62" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,124) scale(1,-1)">Exactly three Chinese drafts</text>
+			<text x="9" y="50" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,100) scale(1,-1)">At most one repair / rewrite</text>
+			<text x="9" y="38" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,76) scale(1,-1)">Remaining blocker disables copy</text>
+			<path d="M 75,126 L 75,94 Z" style="stroke: rgb(12%,24%,20%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="75 94, 77.39713 98.38791, 72.60287 98.38791" style="stroke: rgb(12%,24%,20%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,24%,20%); fill-rule: evenodd;"/>
+			<rect x="175" y="15" width="151" height="79" rx="5" ry="0" style="stroke: rgb(64%,54%,34%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(91%,92%,89%); fill-rule: evenodd;"/>
+			<text x="184" y="77" style="font-family: Bold; font-size: 9px;fill: rgb(12%,24%,20%); stroke:none;" transform="translate(0,154) scale(1,-1)">Run + budget evidence</text>
+			<text x="184" y="62" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,124) scale(1,-1)">Reserve each request first</text>
+			<text x="184" y="50" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,100) scale(1,-1)">Inputs, context, raw attempts</text>
+			<text x="184" y="38" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,76) scale(1,-1)">UUID, hashes, usage, latency</text>
+			<path d="M 149,55 L 175,55 Z" style="stroke: rgb(12%,24%,20%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="175 55, 170.6121 57.39713, 170.6121 52.60287" style="stroke: rgb(12%,24%,20%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,24%,20%); fill-rule: evenodd;"/>
+			<rect x="350" y="15" width="159" height="79" rx="5" ry="0" style="stroke: rgb(64%,54%,34%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(91%,92%,89%); fill-rule: evenodd;"/>
+			<text x="359" y="77" style="font-family: Bold; font-size: 9px;fill: rgb(12%,24%,20%); stroke:none;" transform="translate(0,154) scale(1,-1)">Advisor review / choice</text>
+			<text x="359" y="62" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,124) scale(1,-1)">No automatic sending</text>
+			<text x="359" y="50" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,100) scale(1,-1)">AI and human judgments separate</text>
+			<text x="359" y="38" style="font-family: Body; font-size: 7.5px;fill: rgb(14%,23%,20%); stroke:none;" transform="translate(0,76) scale(1,-1)">Human confirms before use</text>
+			<path d="M 326,55 L 350,55 Z" style="stroke: rgb(12%,24%,20%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="350 55, 345.6121 57.39713, 345.6121 52.60287" style="stroke: rgb(12%,24%,20%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,24%,20%); fill-rule: evenodd;"/>
+		</g>
+	</g>
+</svg>

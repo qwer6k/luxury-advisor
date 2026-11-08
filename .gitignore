@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+.venv/
+**/__pycache__/
+*.pyc
+.ruff_cache/
+**/node_modules/
+outputs/
+.DS_Store
+*.tsbuildinfo
+# Private materials supplied only with the email evidence attachment.
+data/editorial_review_samples.json
+data/work_log.json
+review/index.html
+review/*.csv
+formal-review/dataset.json
+**/private-evidence/
